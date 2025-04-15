@@ -1,6 +1,10 @@
 (channel-news
   (version 0)
 
+  (entry (commit "d9825db344b69ad18ca47d6a133596b3d723fefc")
+         (title (en "Getting to know the news file.."))
+         (body (en "Hopefully this time I got this.")))
+
   (entry (commit "12dbc0d704084383260507f9badd27a113671346")
          (title (en "Zhello 5"))
          (body (en "Updated zhello to version 5!")
