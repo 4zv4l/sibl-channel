@@ -17,5 +17,5 @@
     (build-system zig-build-system)
     (synopsis "My first guix package using the Zig build system :)")
     (description "Simple hello world in C")
-    (home-page "none")
+    (home-page "https://github.com/4zv4l/zhello")
     (license gpl3+)))
