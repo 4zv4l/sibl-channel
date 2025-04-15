@@ -1,0 +1,2 @@
+# sibl-channel
+Guix Channel
