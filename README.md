@@ -1,2 +1,3 @@
 # sibl-channel
-Guix Channel
+
+My Guix Channel
