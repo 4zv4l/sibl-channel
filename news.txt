@@ -1,6 +1,12 @@
 (channel-news
   (version 0)
 
+  (entry (commit "8d78a819b0b9a4ee2385d109f807e719991e6fdd")
+         (title (en "Zhello now shows a home-page"))
+         (body (en "You can now see the home-page for the zhello package.
+It is basically the git repo from where the code is from\
+but should be \"fine\" as home-page."))
+
   (entry (commit "d9825db344b69ad18ca47d6a133596b3d723fefc")
          (title (en "Getting to know the news file.."))
          (body (en "Hopefully this time I got this.")))
