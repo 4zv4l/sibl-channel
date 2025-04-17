@@ -1,4 +1,4 @@
 (channel
   (version 0)
   (news-file "news.txt")
-  (url "https://github.com/4zv4l/sibl-channel.git"))
+  (url "https://github.com/4zv4l/sibl-channel"))
