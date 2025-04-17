@@ -1,5 +1,4 @@
 (channel
   (version 0)
   (news-file "news.txt")
-  (directory "sibl")
   (url "https://github.com/4zv4l/sibl-channel"))
