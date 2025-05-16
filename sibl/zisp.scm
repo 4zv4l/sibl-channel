@@ -20,9 +20,9 @@
     (synopsis "A basic lisp interpreter in Zig")
     (description "Zisp is a very basic Lisp like language interpreter, made for learning purposes.
 @itemsize
-@ no memory handling (doesnt free any allocated memory)
-@ basic tail call optimization (broken due to memory not being freed)
-@ error message are only useful in Debug or Safe release
+@item no memory handling (doesnt free any allocated memory)
+@item basic tail call optimization (broken due to memory not being freed)
+@item error message are only useful in Debug or Safe release
 @end itemsize")
     (home-page "https://github.com/4zv4l/zisp")
     (license gpl3+)))
