@@ -1,6 +1,10 @@
 (channel-news
   (version 0)
 
+  (entry (commit "ac1d847358c3372ccfa4b955e087d27bb61c083a")
+         (title (en "Zisp is here !"))
+         (body (en "A very simple and barely working lisp interpreter I made for learning purposes.")))
+
   (entry (commit "a929b8e0db1fad62afced9c031130941ecb80cdc")
          (title (en "Zhello v6 released!"))
          (body (en "Zhello v6 is released (to test my substitute server).
