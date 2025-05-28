@@ -1,4 +1,4 @@
-(define-module (zfortune)
+(define-module (sibl zfortune)
   #:use-module (guix packages)
   #:use-module (guix gexp)
   #:use-module (guix git-download)
