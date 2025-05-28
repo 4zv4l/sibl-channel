@@ -15,7 +15,7 @@
         (uri (git-reference
 	      (url "https://github.com/4zv4l/zfortune")
 	      (commit "main")))
-        (sha256 (base32 "19cbmy4azrw7lc3ckikl0vz8z0y9zzmkl8gyr04wblrzs21b138m"))))
+        (sha256 (base32 "1rwr0hsdqzrypc3vm98msfbimyp3z468fgcydzzsfl8r8sdxdbvq"))))
     (build-system zig-build-system)
     (arguments '(#:tests? #f
                  #:zig-release-type "safe"))
