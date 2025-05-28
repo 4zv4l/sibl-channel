@@ -8,7 +8,7 @@
 (define-public zfortune
   (package
     (name "zfortune")
-    (version "0.1")
+    (version "0.0.1")
     (source
       (origin
         (method git-fetch)
