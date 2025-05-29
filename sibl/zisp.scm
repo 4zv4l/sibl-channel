@@ -1,4 +1,5 @@
 (define-module (sibl zisp)
+  #:use-module (gnu packages zig)
   #:use-module (guix packages)
   #:use-module (guix gexp)
   #:use-module (guix download)
@@ -15,8 +16,9 @@
         (uri (string-append "https://github.com/4zv4l/zisp/archive/refs/tags/" version ".tar.gz"))
         (sha256 (base32 "16s62d72a8c0lkllzcy1dfpqkicb9bxr7p13b9i7069b3hqackfk"))))
     (build-system zig-build-system)
-    (arguments '(#:zig "zig@0.14.0"
-                 #:zig-release-type "safe"))
+    (native-inputs (list zig-0.14))
+    (arguments (list #:zig zig-0.14
+                     #:zig-release-type "safe"))
     (synopsis "A basic lisp interpreter in Zig")
     (description "Zisp is a very basic Lisp like language interpreter, made for learning purposes.
 @itemize

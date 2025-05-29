@@ -1,4 +1,5 @@
 (define-module (sibl zfortune)
+  #:use-module (gnu packages zig)
   #:use-module (guix packages)
   #:use-module (guix gexp)
   #:use-module (guix git-download)
@@ -17,8 +18,10 @@
 	      (commit "main")))
         (sha256 (base32 "1rwr0hsdqzrypc3vm98msfbimyp3z468fgcydzzsfl8r8sdxdbvq"))))
     (build-system zig-build-system)
-    (arguments '(#:tests? #f
-                 #:zig-release-type "fast"))
+    (native-inputs (list zig-0.14))
+    (arguments (list #:zig zig-0.14
+                     #:tests? #f
+                     #:zig-release-type "fast"))
     (synopsis "A basic fortune like program in Zig")
     (description "Zfortune is a very basic fortune like program, it just find a random <file>.dat from the env var FORTUNE_PATH and show a random fortune.")
     (home-page "https://github.com/4zv4l/zfortune")
