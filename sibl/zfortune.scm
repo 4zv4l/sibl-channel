@@ -9,14 +9,14 @@
 (define-public zfortune
   (package
     (name "zfortune")
-    (version "0.0.2")
+    (version "0.0.3")
     (source
       (origin
         (method git-fetch)
         (uri (git-reference
 	      (url "https://github.com/4zv4l/zfortune")
-	      (commit "0.0.2")))
-        (sha256 (base32 "1rwr0hsdqzrypc3vm98msfbimyp3z468fgcydzzsfl8r8sdxdbvq"))))
+	      (commit "0.0.3")))
+        (sha256 (base32 "18yg38cgvz5939cszw9z5dq617m7ln9igmgnlqw6jn99z8v3xsgh"))))
     (build-system zig-build-system)
     (native-inputs (list zig-0.14))
     (arguments (list #:zig zig-0.14
