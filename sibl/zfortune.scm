@@ -16,7 +16,7 @@
         (uri (git-reference
 	      (url "https://github.com/4zv4l/zfortune")
 	      (commit "0.0.3")))
-        (sha256 (base32 "18yg38cgvz5939cszw9z5dq617m7ln9igmgnlqw6jn99z8v3xsgh"))))
+        (sha256 (base32 "0ahr0pz3pl5yl0bkgpfc4pa62nap4sqw0mxds4zx6gw2br0ghgp4"))))
     (build-system zig-build-system)
     (native-inputs (list zig-0.14))
     (arguments (list #:zig zig-0.14
