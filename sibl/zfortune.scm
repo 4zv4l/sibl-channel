@@ -9,7 +9,7 @@
 (define-public zfortune
   (package
     (name "zfortune")
-    (version "0.0.1")
+    (version "0.0.2")
     (source
       (origin
         (method git-fetch)
@@ -21,7 +21,7 @@
     (native-inputs (list zig-0.14))
     (arguments (list #:zig zig-0.14
                      #:tests? #f
-                     #:zig-release-type "fast"))
+                     #:zig-release-type "safe"))
     (synopsis "A basic fortune like program in Zig")
     (description "Zfortune is a very basic fortune like program, it just find a random <file>.dat from the env var FORTUNE_PATH and show a random fortune.")
     (home-page "https://github.com/4zv4l/zfortune")
