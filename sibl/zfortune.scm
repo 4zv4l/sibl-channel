@@ -15,7 +15,7 @@
         (method git-fetch)
         (uri (git-reference
 	      (url "https://github.com/4zv4l/zfortune")
-	      (commit "main")))
+	      (commit "0.0.2")))
         (sha256 (base32 "1rwr0hsdqzrypc3vm98msfbimyp3z468fgcydzzsfl8r8sdxdbvq"))))
     (build-system zig-build-system)
     (native-inputs (list zig-0.14))
