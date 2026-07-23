@@ -3,6 +3,7 @@
   #:use-module (guix download)
   #:use-module (guix git-download)
   #:use-module (gnu packages wm)
+  #:use-module ((gnu packages window-management) #:select (libdisplay-info wlroots scenefx))
   #:use-module (gnu packages freedesktop)
   #:use-module (gnu packages xdisorg)
   #:use-module (gnu packages pciutils)
