@@ -10,7 +10,6 @@
   #:use-module (gnu packages pcre)
   #:use-module (gnu packages xorg)
   #:use-module (gnu packages build-tools)
-  #:use-module (gnu packages ninja)
   #:use-module (gnu packages pkg-config)
   #:use-module (guix build-system meson)
   #:use-module (guix licenses))
