@@ -14,7 +14,7 @@
             (method git-fetch)
             (uri (git-reference
                   (url "https://github.com/ash/rakupp")
-                  (commit "v1.2.0"))
+                  (commit "v1.2.0")))
             (file-name (git-file-name name version))
             (sha256
              (base32
